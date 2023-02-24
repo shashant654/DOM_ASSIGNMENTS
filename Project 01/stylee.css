@@ -1,0 +1,120 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+
+
+.container{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left:40px ;
+    margin-right: 2px;
+
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.grow-list ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #6c757d;
+
+}
+
+
+
+.grow-list ul{
+    position: relative;
+    right: 250px;
+}
+
+
+.grow-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .banner-container .list-item{
+    margin-right: 50px;
+} */
+
+.button-group{
+    justify-content: center;
+    background-color: #7371fc;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar-container img{
+    position: relative;
+
+}
+
+.button-group button.nav-button{
+     /* position: relative;
+     right: 100%;
+    width: 120px; 
+    height: 40px;
+    /* justify-content: center;  */
+    /* background-color: #7371fc;
+    border: 1x solid  #7371fc ;
+    border-radius: 5px;    
+    color: #ffff  */ 
+
+
+    border-radius: 5px;
+    position: relative;
+    right: 100%;
+    background-color: #7371fc;
+    color: #ffff;
+    height: 40px;
+    width: 120px;
+    border: 1px solid #7371fc;
+
+}
+
+.banner-container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    }
+
+.banner-container span{
+    color: #7371fc;
+}  
+
+.banner-container img{
+    height: 500px;
+    width: 800px;
+}
+
+h1.heading-text{
+    font-size: 70px;
+    color: darkmagenta;
+    
+}
+
+.banner-container button{
+    position: relative;
+    width: 160px;
+    height: 40px;
+    background-color: #7371fc;
+    border: 2px solid #7371fc;
+    border-radius: 9px;
+    margin-top: 5px;
+}
+
+p.description{
+    font-size: 20px;
+    color: #6c757d;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
